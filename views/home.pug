@@ -1,0 +1,45 @@
+extends base.pug
+
+
+block scripts
+  script(src='../static/script.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content
+    
+            
+    
+    section#introSection 
+        div WELCOME TO NEW DANCE ACADEMY 
+        div.quote “Dancing is silent poetry.” — Simonides
+
+    section.container#missionSection
+        
+        h2 OUR MISSION 
+        div.card#one
+           h3 BRAND NEW
+           p Got two left feet?Start with our 10-day intro program.
+        div.card#two
+           h3 BEGINER 
+           p Got the basics down? Level up with new moves and routines.
+        div.card#three
+          h3 INTERMEDIATE 
+          p Feel pretty confident? Learn more challenging skills and pieces.
+        div.card#four
+           h3 ADVANCED 
+           p Already killin' it? Train with the top choreographers in the game.
+            
+
+    section.container#sponsorSection 
+        h2 Plan & Pricing
+        p No matter if you're a beginner or got some experience - we got you covered.
+        p Join now to get access to unlimited dance videos & explore your inner dancer now.
+        h3 MONTHLY  : ₹299
+        h3 QUATERLY : ₹799
+        h3 YEARLY   : ₹2999
+        p BOOK YOUR FREE TRIAL NOW
+
+    

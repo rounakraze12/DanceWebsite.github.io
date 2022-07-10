@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    color: white;
+    font-size: 20px;
+    margin-right: 26px;
+}
+
+#logo img {
+    height: 34px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: rgb(12 49 46);
+    padding: 13px 14px;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 23px;
+    color: white;
+    font-size: 23px;
+
+}
+
+#navbar li a:hover {
+    color: black;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+     justify-content: center; 
+    align-items: center;
+}
+
+
+
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    background: center / cover no-repeat url("../static/images/bg.jpg");
+    height: 650px;
+    background-color: orange;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#sponsorSection {
+    height: 450px;
+    background-color: rgb(12 179 150 / 42%);
+}
+
+#footer {
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+#introSection div.quote {
+    font-size: 37PX;
+
+}
+
+#sponsorSection h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+#missionSection {
+    background: rgb(195 46 46);
+    height: 450px;
+    margin: auto;
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 240px;
+    width: 19%;
+    display: inline-block;
+    margin: 22px 71px;
+
+}
+
+.card h3 {
+    text-align: center;
+    margin: 18px 8px;
+    font-size: 29px;
+    color: white;
+}
+
+.card p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+div.card#one {
+    background: center / cover no-repeat url(../static/images/crad1.jpg);
+
+}
+
+div.card#two {
+    background: center / cover no-repeat url(../static/images/card2.jpg);
+}
+
+div.card#three {
+    background: center / cover no-repeat url(../static/images/card3.jpg);
+}
+
+div.card#four {
+    background: center / cover no-repeat url(../static/images/card4.jpg);
+}
+#sponsorSection p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#sponsorSection h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.btn {
+    width: 234px;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(59, 148, 160);
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 30px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    
+}
+.btn:hover{
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);;
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+    
+}
+
+#sponsorSection button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.card:hover{
+    background: yellow;
+}
+p.p1{
+    margin-top: 28px;
+}

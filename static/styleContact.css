@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 12px 0px;
+
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput {
+    width: 50%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solod red;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 30px;
+}
+
+.container {
+    min-height: 50vh;
+    margin: 43px 0px;
+}
+
+.container h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 34px;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    
+}
+

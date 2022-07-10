@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    title ROUNAK DANCE ACADEMY
+    style
+      include ../static/style.css
+  body
+    
+    nav#navbar 
+        ul 
+            div#logo
+              img(src="../static/images/logo.png")
+              | NDA
+            li #[a(href="/") HOME]
+            li #[a(href="/about") ABOUT ]
+            li #[a(href="/services") SERVICES] 
+            li #[a(href="/class") CLASS INFO]
+            li #[a(href="/contact") CONTACT US]
+            
+    
+    section#introSection 
+        div WELCOME TO NEW DANCE ACADEMY 
+        div.quote “Dancing is silent poetry.” — Simonides
+
+    div.container
+      section#missionSection
+        
+        h2 OUR MISSION 
+        div.card#one
+           h3 BRAND NEW
+           p Got two left feet?Start with our 10-day intro program.
+        div.card#two
+           h3 BEGINER 
+           p Got the basics down? Level up with new moves and routines.
+        div.card#three
+          h3 INTERMEDIATE 
+          p Feel pretty confident? Learn more challenging skills and pieces.
+        div.card#four
+           h3 ADVANCED 
+           p Already killin' it? Train with the top choreographers in the game.
+          
+
+      section#sponsorSection 
+        h2 Plan & Pricing
+        p No matter if you're a beginner or got some experience - we got you covered.
+        p Join now to get access to unlimited dance videos & explore your inner dancer now.
+        
+        button(class="btn")
+          |MONTHLY : ₹299
+        button(class="btn")
+          |QUATERLY : ₹799
+        button(class="btn")
+          |YEARLY   : ₹2999
+        p.p1 BOOK YOUR FREE TRIAL NOW
+    
+    footer#footer
+        | Copyrigth Ⓒ rounakdanceacademy.com | All Right Reserved
+    script
+      include ../static/script.js
